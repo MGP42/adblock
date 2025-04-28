@@ -1,0 +1,14 @@
+! Title: DKI - General
+! Description: filterlist for stuff that isn't on a differen't list ¯\_(ツ)_/¯
+! Version: 20250428-1
+! Expires: 1 day
+! Homepage:
+! License: GPL-3.0 
+
+! https://theoldreader.com
+theoldreader.com##div#in-feed-ad-container
+theoldreader.com###tor-in-feed-ad-container
+
+! https://www.der-postillon.com
+www.der-postillon.com###steady-adblock-overlay-container-content
+
