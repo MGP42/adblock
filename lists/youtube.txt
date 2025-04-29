@@ -7,7 +7,7 @@
 
 ! Revert youtubes 3 grid to 5
 youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
-youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 5 !important;)
+youtube.com##ytd-rich-item-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
 youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 5 !important;)
 
 ! Shorts
