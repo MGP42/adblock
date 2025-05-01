@@ -16,3 +16,6 @@ www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Sho
 www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
 ! Hide shorts section on homepage and search pages
 www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
+
+! Youtube Featured Banner
+##ytd-rich-grid-renderer #big-yoodle.style-scope
