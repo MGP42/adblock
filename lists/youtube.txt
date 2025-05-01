@@ -18,4 +18,4 @@ www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
 www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
 
 ! Youtube Featured Banner
-##ytd-rich-grid-renderer #big-yoodle.style-scope
+www.youtube.com##ytd-rich-grid-renderer #big-yoodle.style-scope
