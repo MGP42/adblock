@@ -19,3 +19,6 @@ www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-render
 
 ! Youtube Featured Banner
 www.youtube.com##ytd-rich-grid-renderer #big-yoodle.style-scope
+
+! Pay to Watch
+youtube.com##div[aria-label="Pay to watch"]:upward(ytd-rich-item-renderer)
