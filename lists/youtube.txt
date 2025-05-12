@@ -1,6 +1,6 @@
 ! Title: DKI - Youtube
 ! Description: Reverts youtubes bullshit changes, no one asked for and no one wants
-! Version: 20250510-1
+! Version: 20250512-1
 ! Expires: 1 day
 ! Homepage: https://github.com/MGP42/adblock/
 ! License: GPL-3.0
@@ -24,3 +24,6 @@ www.youtube.com##ytd-rich-grid-renderer #big-yoodle.style-scope
 
 ! Pay to Watch
 youtube.com##div[aria-label="Pay to watch"]:upward(ytd-rich-item-renderer)
+
+! Anti Forced Delay
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
