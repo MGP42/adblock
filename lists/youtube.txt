@@ -15,7 +15,9 @@ youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 5
 www.youtube.com##ytd-guide-entry-renderer:has(yt-formatted-string:has-text(/^Shorts$/i))
 www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
 ! Hide shorts section on homepage and search pages
-www.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytd-rich-section-renderer:has(#title:has-text(/(^| )Shorts( |$)/i))
+www.youtube.com##ytd-rich-shelf-renderer:has(span#title:has-text(/Shorts/i))
+www.youtube.com##ytd-reel-shelf-renderer:has(span#title:has-text(/Shorts/i))
+
 
 ! Youtube Featured Banner
 www.youtube.com##ytd-rich-grid-renderer #big-yoodle.style-scope
