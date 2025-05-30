@@ -12,3 +12,5 @@ theoldreader.com###tor-in-feed-ad-container
 ! https://www.der-postillon.com
 www.der-postillon.com###steady-adblock-overlay-container-content
 
+! https://gg.deals
+gg.deals##.gg-full-content-widget.with-image
