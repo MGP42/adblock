@@ -1,6 +1,6 @@
 ! Title: DKI - General
 ! Description: filterlist for stuff that isn't on a differen't list ¯\_(ツ)_/¯
-! Version: 20250428-1
+! Version: 20250530-1
 ! Expires: 1 day
 ! Homepage: https://github.com/MGP42/adblock/
 ! License: GPL-3.0 
