@@ -14,3 +14,6 @@ www.der-postillon.com###steady-adblock-overlay-container-content
 
 ! https://gg.deals
 gg.deals##.gg-full-content-widget.with-image
+
+! Https://wikipedia.org
+wikipedia.org###wmde-banner-app
