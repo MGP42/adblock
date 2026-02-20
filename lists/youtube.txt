@@ -18,6 +18,9 @@ www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
 www.youtube.com##ytd-rich-shelf-renderer:has(span#title:has-text(/Shorts/i))
 www.youtube.com##ytd-reel-shelf-renderer:has(span#title:has-text(/Shorts/i))
 
+! Hide Youtube Premium
+www.youtube.com##ytd-brand-video-shelf-renderer
+www.youtube.com##a#endpoint.yt-simple-endpoint.style-scope.ytd-guide-entry-renderer[href="/premium"]
 
 ! Youtube Featured Banner
 www.youtube.com##ytd-rich-grid-renderer #big-yoodle.style-scope
