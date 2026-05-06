@@ -17,3 +17,15 @@ gg.deals##.gg-full-content-widget.with-image
 
 ! Https://wikipedia.org
 wikipedia.org###wmde-banner-app
+
+! https://www.chefkoch.de
+www.chefkoch.de##.ds-mb-4.ds-mt-4
+www.chefkoch.de##.ad--top
+www.chefkoch.de##.hide-below--tablet
+www.chefkoch.de##spark-ad.recipe-list__rectangle_2
+www.chefkoch.de##spark-ad.recipe-list__dmomain_4
+www.chefkoch.de##.recipe-list__rectangle_1
+www.chefkoch.de##spark-ad.recipe-list__dmomain_2
+www.chefkoch.de##spark-ad.recipe-list__dmomain_3
+www.chefkoch.de##spark-ad.ds-mb-s-6.ds-mb-4.ad-container
+www.chefkoch.de##div.col-m-off-8.ds-col-m-4.hide-below--desktop
