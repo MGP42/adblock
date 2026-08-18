@@ -17,6 +17,8 @@ www.youtube.com##ytd-mini-guide-entry-renderer:has(.title:has-text(/^Shorts$/i))
 ! Hide shorts section on homepage and search pages
 www.youtube.com##ytd-rich-shelf-renderer:has(span#title:has-text(/Shorts/i))
 www.youtube.com##ytd-reel-shelf-renderer:has(span#title:has-text(/Shorts/i))
+! Hide shorts from search pages
+youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
 
 ! Playables
 ! Hide playables section on homepage and search pages
