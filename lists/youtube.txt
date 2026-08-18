@@ -5,10 +5,19 @@
 ! Homepage: https://github.com/MGP42/adblock/
 ! License: GPL-3.0
 
-! Revert youtubes 3 grid to 5
-youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
-youtube.com##ytd-rich-item-renderer:style(--ytd-rich-grid-items-per-row: 5 !important;)
-youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 5 !important;)
+! Revert YouTube 3 grid to 5
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 5 !important; --ytd-rich-grid-posts-per-row: 5 !important;)
+youtube.com##ytd-rich-grid-row:style(display:contents !important;)
+youtube.com###contents.ytd-rich-grid-row:style(display:contents !important;)
+
+! Remove non-video grid elements that can create empty rows/gaps
+youtube.com###contents.ytd-rich-grid-renderer > :not(ytd-rich-item-renderer,ytd-continuation-item-renderer)
+
+! Reset YouTube's stale first-column marker after ads/elements are removed
+youtube.com##ytd-rich-item-renderer[is-in-first-column]:remove-attr(is-in-first-column)
+
+! Remove ghost grid
+youtube.com##ytd-ghost-grid-renderer
 
 ! Shorts
 ! Hide shorts button and sections in sidebar
