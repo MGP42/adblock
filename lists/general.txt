@@ -29,3 +29,6 @@ www.chefkoch.de##spark-ad.recipe-list__dmomain_2
 www.chefkoch.de##spark-ad.recipe-list__dmomain_3
 www.chefkoch.de##spark-ad.ds-mb-s-6.ds-mb-4.ad-container
 www.chefkoch.de##div.col-m-off-8.ds-col-m-4.hide-below--desktop
+
+! https://chatgpt.com
+chatgpt.com##div.mt-2.border-t:has(div:has-text(Anzeige))
